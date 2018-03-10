@@ -1,33 +1,72 @@
-# WXM-Study-GIT
-This repo is used to study GIT
+# This is Title  
 
-段落的前后必须都有空行来指明这是一个段落
+ Following is word with different type  
+*斜体*  
+**粗体**  
+***斜体粗体***  
+~~删除线是个什么鬼~~  
 
-行尾输入2个空格一个enter就可以实现  
-段内的换行
+Following is title with different size
+# title 1井
+## title 2井
+### title 3井
+#### title 4井
+##### title 5井
+###### title 6井
+####### title 7井无效
 
-# #号+空格可以用来指示这是标题，井号越多字体越大
-
-> 号可以实现区块引用  
-> 看起来像这样  
-好像没什么大用
-
-    coding here
-    
-    
-    ccoding here too
-    
-
-无序列表  
-+ 红
-+ 黄 
-+ 蓝
-
-有序列表无视。前面的数字，显示数字都是1 2 3 ...
-1. 猫
-1. 狗  
-
+Following is a dividing line
 ***
-up is 分隔线
 
-This is [an example](http://example.com/ "Title") inline link.
+Following is sequent list
+1. 买票
+2. 取票
+3. 上车
+
+Following is nosequent list
++ 丰田
++ 宝马
++ 迈巴赫
+
+Following is a reference
+
+> This is a oneline reference  
+> This is a   
+multiline reference
+
+
+Following is coding begin with 4space or 2tab
+
+    float ocv_soc（float soc）{
+      float ocv = 0；
+      ocv = lookuptable（OcvSocTable，soc）；
+      return ocv；
+    }
+
+Following is a 标记
+
+标记之外`这是标记`标记之外
+
+Following is inline link  
+
+This is the website of [google](www.google.com "google")  
+
+Following is ref link
+
+This is the website of [baidu][13]  
+[13]:www.baidu.com "baidu"  
+
+Following is pic link  
+
+#### Terror
+
+![diablo's pic](./tianshi.jpg "tianshi")  
+
+Following is optional 
+
+- [x] apple
+- [x] orange   
+
+Following is 表情
+
+ :smile:
